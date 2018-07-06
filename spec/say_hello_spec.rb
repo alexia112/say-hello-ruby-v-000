@@ -1,3 +1,6 @@
+def greeting(name = "Ruby programmer")
+  puts "Hello, #{name}"
+end
 require_relative './spec_helper'
 
 describe "say_hello" do 
